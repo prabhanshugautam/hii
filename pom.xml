@@ -4,6 +4,14 @@
   <artifactId>hii</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>HelloWorld</name>
+  <dependencyManagement>
+  <dependencies>
+  <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+</dependency>
+  </dependencies>
+  </dependencyManagement>
  <build>
     <finalName>app</finalName>
     <plugins>
